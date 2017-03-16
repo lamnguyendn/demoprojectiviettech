@@ -1,0 +1,15 @@
+For example, you want to generate n characters as ticket number.
+
+We can use Apache common lang 3 library. Add the following dependency into your pom.xml:
+
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.5</version>
+</dependency>
+
+Then, use the following snippet:
+
+**RandomStringUtils.random(8, true, true).toUpperCase()**
+
+(8: number of characters)

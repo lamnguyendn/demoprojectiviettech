@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-mvc-ajax-paging:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="spring-mvc-ajax-paging-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="spring-mvc-ajax-paging:war exploded" />
+    </root>
+  </artifact>
+</component>

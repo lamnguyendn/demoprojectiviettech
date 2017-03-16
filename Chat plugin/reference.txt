@@ -1,0 +1,26 @@
+Sometime, we want to integrate a chat plugin to our web-site. Then, visitor can chat directly with admin of the site.
+
+https://www.tawk.to/ is a FREE service that provide a chat plugin that very easy to install.
+
+Following are steps:
+1, https://www.tawk.to/, sign up
+2, Confirm email for registration
+3, You will be redirected to the dashboard: https://dashboard.tawk.to/
+4, There, you can skip the first 2 step at Widget, at step 3, you can get a source code, put this source code at every page, before </body> tag:
+Example:
+
+<!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+            (function(){
+                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                s1.async=true;
+                s1.src='https://embed.tawk.to/584a81734160416f6d9c2203/default';
+                s1.charset='UTF-8';
+                s1.setAttribute('crossorigin','*');
+                s0.parentNode.insertBefore(s1,s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
+
+5, That's it. Now, you can test with tawk. Admin of the site go the the tawk dashboard to monitor, chat, etc. https://dashboard.tawk.to

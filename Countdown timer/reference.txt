@@ -1,0 +1,6 @@
+We can use this library: http://flipclockjs.com/
+Download examples from here: https://github.com/objectivehtml/FlipClock/archive/master.zip
+.
+The 2nd option might be: http://hilios.github.io/jQuery.countdown/
+.
+Even more, you can google: countdown timer jquery

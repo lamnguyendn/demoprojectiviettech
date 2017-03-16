@@ -1,0 +1,6 @@
+Prepare report, then save to PDF
+
+Library: http://www.dynamicreports.org/
+Report examples: http://www.dynamicreports.org/examples/examples-overview
+
+Tutorial example: https://www.mkyong.com/java/reporting-in-java-using-dynamicreports-and-jasperreports/

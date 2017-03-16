@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+    http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+
+    <display-name>Demonstration how to use Spring WebMVC + Bootstrap</display-name>
+
+    <servlet>
+        <servlet-name>spring</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>spring</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>posturl</param-name>
+        <param-value>https://www.sandbox.paypal.com/cgi-bin/webscr</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>cmd</param-name>
+        <param-value>_xclick</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>business</param-name>
+        <param-value>hieu.nquang-facilitator@gmail.com</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>7RXZEXTDC8EXFAVK</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>signature</param-name>
+        <param-value>AFcWxV21C7fd0v3bYYYRCpSSRl31AnAEuAxsVBMh.zTp7j6y46FznHDM</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>returnurl</param-name>
+        <param-value>http://localhost:8080/paypal/success</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>cancelurl</param-name>
+        <param-value>http://localhost:8080/paypal/cancel</param-value>
+    </context-param>
+
+</web-app>

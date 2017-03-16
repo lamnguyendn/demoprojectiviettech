@@ -1,0 +1,13 @@
+Sometime, we want to generate a QR code image, this code contains some data, such as an URL, ticket number, etc. Then, end user can use Mobile phone to scan this image to get the data.
+
+In Java, we can use an popular library, named Zxing to do this stuff.
+
+**Steps**
+1, Add the following dependency into your pom.xml:
+<dependency>
+    <groupId>com.google.zxing</groupId>
+    <artifactId>core</artifactId>
+    <version>3.3.0</version>
+</dependency>
+
+2, Use helper method in class **QRCodeGenerator** (attachment)

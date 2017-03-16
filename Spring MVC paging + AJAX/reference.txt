@@ -1,0 +1,3 @@
+Use jQuery plugin for paging: https://esimakin.github.io/twbs-pagination/
+
+Handle paging, use AJAX

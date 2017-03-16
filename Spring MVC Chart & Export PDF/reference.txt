@@ -1,0 +1,1 @@
+Use http://www.highcharts.com/ to design charts & export charts to PDF/Images
